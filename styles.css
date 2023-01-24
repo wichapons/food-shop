@@ -1,0 +1,91 @@
+body{
+    font-family: "Open Sans", sans-serif;
+    margin: 0;
+    background-color: rgb(32, 31, 31);
+}
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+}
+
+#main-header{
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 10px;
+}
+
+#logo{
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(253, 144, 1);
+    
+}
+
+#main-header ul{
+    display: flex;
+    list-style: none;
+}
+
+#main-header ul a:hover{
+    color: rgb(231, 231, 62);
+}
+
+main h1{
+    text-align: center;
+    color: rgb(255, 162, 0);
+    font-size: 48px;
+}
+
+#main-header li{
+    margin: 0 20px;
+}
+
+#main-header nav a{
+    color: rgb(253, 144, 1);
+}
+
+#menu{
+    width: 80%;
+    margin: 50px auto;
+}
+
+#menu ul{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+    margin: 0;
+}
+
+.food-item{
+    background-color: blanchedalmond;
+    border-radius: 5px;
+}
+
+.food-item img{
+    height: 400px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.food-content{
+    margin:10px;
+    text-align: center;
+}
+
+.btn{
+    background-color: orange;
+    color: rgb(255, 255, 255);
+    border-radius: 3px;
+    padding:4px 10px;
+}
+
+.btn:hover{
+    background-color: orangered;
+}
