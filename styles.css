@@ -13,16 +13,17 @@ ul{
 }
 
 #main-header{
-    height: 80px;
+    height: 5rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 0 10px;
+    padding: 0 2%;
+    background-color: rgb(70, 69, 69);
 }
 
 #logo{
     text-transform: uppercase;
-    font-size: 30px;
+    font-size: 1.5rem;
     font-weight: bold;
     color: rgb(253, 144, 1);
     
@@ -40,11 +41,11 @@ ul{
 main h1{
     text-align: center;
     color: rgb(255, 162, 0);
-    font-size: 48px;
+    font-size: 3rem;
 }
 
 #main-header li{
-    margin: 0 20px;
+    margin: 0 1rem;
 }
 
 #main-header nav a{
@@ -53,13 +54,13 @@ main h1{
 
 #menu{
     width: 80%;
-    margin: 50px auto;
+    margin: 2rem auto;
 }
 
 #menu ul{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 50px;
+    gap: 2rem;
     margin: 0;
 }
 
@@ -69,14 +70,14 @@ main h1{
 }
 
 .food-item img{
-    height: 200px;
+    height: 14rem;
     width: 100%;
     object-fit: cover;
     border-radius: 3px ;
 }
 
 .food-content{
-    margin:10px;
+    margin:0.8rem;
     text-align: center;
 }
 
@@ -84,7 +85,7 @@ main h1{
     background-color: orange;
     color: rgb(255, 255, 255);
     border-radius: 3px;
-    padding:4px 10px;
+    padding: 0.3rem 0.6rem;
 }
 
 .btn:hover{
